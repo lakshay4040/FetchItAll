@@ -30,12 +30,14 @@ public class TwitterProducer {
 	
 	Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 	
-	String consumerKey="4jaKVPqXSlbNXaD3v3x9RmYid";
-	String consumerSecret="stPR1DMwq9wY3heTVG6RYJ8I4mIB6pFUmjThBtGzupE8RR13F7";
-	String token="1152523424910233600-wcm3vGaeTleW3SsXBAAQJqnLmunNb1";
-	String secret="siWaHwnKB2Zk8zHjZ77mITMJHYqPhYVPwAmtVYZDf2Wtn";
+	//add your own credentials
+	String consumerKey="";
+	String consumerSecret="";
+	String token="";
+	String secret="";
 	
-	List<String> terms = Lists.newArrayList("covid-19", "sport", "soccer");
+	//add keyword of your preference
+	List<String> terms = Lists.newArrayList("covid");
 	
 	public TwitterProducer() {}
 
